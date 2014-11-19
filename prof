@@ -1,0 +1,40 @@
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH" 
+
+export PS1='\W | \t -->\n'
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+set bell-style visible
+export CLICOLOR=1
+
+alias pog="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch ' 
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout'
+alias gk='gitk --all&'
+alias gx='gitx --all'
+alias crep='java -cp ~/clojure/clojure-1.6.0.jar clojure.main'
+
+alias newtux='tmux new'
+alias tls='tmux ls'
+
+atta() {
+    tmux attach-session -t $1
+}
+
+ktux() {
+    tmux kill-session -t $1
+    tls
+}
+
+ding() {
+    if [ $1 ]; then
+        nc 54.148.120.136 $1
+    else
+        nc 54.148.120.136 5000
+    fi
+}
