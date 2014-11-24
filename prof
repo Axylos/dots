@@ -30,11 +30,3 @@ ktux() {
     tmux kill-session -t $1
     tls
 }
-
-ding() {
-    if [ $1 ]; then
-        nc 54.148.120.136 $1
-    else
-        nc 54.148.120.136 5000
-    fi
-}
