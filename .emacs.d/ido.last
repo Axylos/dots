@@ -1,0 +1,57 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/var/tmp/" . "systemd-private-362a3594802a41a1858b59baa3667198-colord.service-djrkUJ/")
+ ("/home/axylos/sicl/" . "test/")
+ ("/home/axylos/" . "sicl/")
+ ("/home/" . "axylos/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/axylos/sicl/src/"
+ "/home/axylos/projects/c_stuff/ptr/"
+ "/var/tmp/"
+ "/home/axylos/sicl/test/"
+ "/home/axylos/sicl/"
+ "/home/axylos/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "sicl.ts"
+ "ptr.c"
+ "Makefile"
+ "foo.js"
+ "sicl-spec.ts"
+ ".gitignore"
+ "greeter.ts"
+ "index.ts"
+ ".emacs"
+ "greeter-spec.ts"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/var/tmp/" (22828 11924 402869 711000) "audacity-axylos/" "systemd-private-a8a1e80702f94b7d9f4b1b1b3b1a7f10-rtkit-daemon.service-HU4Fjb/" "systemd-private-362a3594802a41a1858b59baa3667198-colord.service-djrkUJ/" "systemd-private-362a3594802a41a1858b59baa3667198-fwupd.service-rThLun/" "systemd-private-362a3594802a41a1858b59baa3667198-rtkit-daemon.service-nT17uf/" "systemd-private-4dae2708df13409eb8c3802b02231b24-colord.service-cdyc1u/" "./" "systemd-private-4dae2708df13409eb8c3802b02231b24-rtkit-daemon.service-S9ngtW/" "systemd-private-4dae2708df13409eb8c3802b02231b24-systemd-timesyncd.service-u7loUS/" "systemd-private-a8a1e80702f94b7d9f4b1b1b3b1a7f10-colord.service-JBxpxF/" "../" "systemd-private-362a3594802a41a1858b59baa3667198-systemd-resolved.service-llZkJv/" "systemd-private-362a3594802a41a1858b59baa3667198-systemd-timesyncd.service-lEIBKi/" "systemd-private-a8a1e80702f94b7d9f4b1b1b3b1a7f10-systemd-resolved.service-fuNxGr/" "systemd-private-a8a1e80702f94b7d9f4b1b1b3b1a7f10-fwupd.service-rr59fG/" "systemd-private-4dae2708df13409eb8c3802b02231b24-fwupd.service-Iq4jOd/" "systemd-private-4dae2708df13409eb8c3802b02231b24-systemd-resolved.service-Y7vwDa/" "systemd-private-a8a1e80702f94b7d9f4b1b1b3b1a7f10-systemd-timesyncd.service-jgrZSd/")
+
+ ("/home/axylos/projects/c_stuff/ptr/" (22828 11890 94341 651000) "./" "Makefile" "../" ".#Makefile")
+
+ ("/home/axylos/sicl/src/" (22821 29048 405704 902000) "index.ts" "./" "sicl.ts" "../" "greeter.ts" "greeter.ts~")
+
+ ("/home/axylos/" (22821 28552 932522 915000) ".xsession-errors" "dots/" ".bash_history" ".ICEauthority" ".bash_logout" "Public/" ".config/" ".profile" ".gnupg/" ".ssh/" ".v8flags.5.5.372.43.9f6331fe68231c6ba3aebb3bc3fcb21b.json" ".profile~" ".bashrc" "Videos/" ".node_repl_history" ".thunderbird/" "./" "Desktop/" "Downloads/" "foo/" ".audacity-data/" ".sudo_as_admin_successful" ".emacs" "../" "Templates/" "Pictures/" ".tmux.conf" ".gitconfig" ".purple/" ".swp" ".local/" "sicl/" ".xsession-errors.old" "examples.desktop" ".cache/" "projects/" ".emacs~" "Music/" ".dmrc" "Documents/" ".gconf/" ".nano/" ".npm/" ".gnome/" ".pki/" "node/" ".Xauthority" ".emacs.d/" ".mozilla/")
+
+ ("/home/axylos/sicl/test/" (22821 28547 460474 840000) "sicl-spec.ts" "greeter-spec.ts" "./" "index-spec.ts" "../")
+
+ ("/var/" (22765 40274 0 0) "metrics/" "mail/" "tmp/" "./" "local/" "crash/" "snap/" "run/" "lock/" "../" "opt/" "spool/" "cache/" "log/" "lib/" "backups/")
+
+ ("/home/axylos/sicl/" (22821 27949 401746 745000) "test/" ".vscode/" ".dir-locals.el" "tslint.json" "./" ".travis.yml" ".gitignore" "../" ".editorconfig" ".git/" "package.json" "src/" "node_modules/" "README.md" "lib/" "tsconfig.json" "LICENSE")
+
+ ("/home/axylos/sicl/lib/" (22820 6544 8934 353000) "index.js" "./" "index.d.ts" "sicl.d.ts" "../" "greeter.js" "greeter.d.ts" "sicl.js")
+
+ ("/home/" (22780 38423 775859 305000) "./" "../" "axylos/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

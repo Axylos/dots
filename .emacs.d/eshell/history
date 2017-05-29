@@ -1,0 +1,62 @@
+ssh kunai
+ls
+cd ..
+ls
+cd ..
+ls
+npm install
+rm #foo.rb#
+ls
+rm "#foo.rb#"
+ls
+cat package.json 
+ls
+npm run
+npm watch"test"
+npm watch:test
+npm watch test
+npm ru
+npm run
+npm run test --watch
+npm watch:test
+npm watch test
+npm run
+npm run test -- --watch
+ls
+cd ..
+ls
+cd .emacs.d/
+ls
+cd elpa/
+ls
+rm -rf npm-mode-20160706.1129/
+exit
+cd ..
+npm run test --watch
+npm run test -- --watch
+cd ..
+ls
+npm run test -- --watch
+npm run test -- --watch
+npm run test -- --watch
+npm run build
+npm run build -- --watch
+npm run test -- --watch
+exit
+git config --global user.email "robertdraketalley@gmail.com"
+git config --global user.name "Axylos"
+git log
+git log --oneline
+git show HEAD
+cd ..
+npm run teset -- --watch
+npm run test -- --watch
+npm run build -- --watch
+npm run build -- --watch
+npm run build -- --watch
+npm run test -- --watch
+npm run test -- --watch
+cd ..
+npm run test -- --watch
+man ecreate
+exit

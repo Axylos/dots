@@ -1,0 +1,34 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/axylos/sicl/" . "src/")
+ ("/home/axylos/" . "sicl/")
+ ("/home/" . "axylos/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/axylos/"
+ "/home/axylos/sicl/src/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "greeter.ts"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/axylos/sicl/src/" (22817 58893 117529 571000) "index.ts" "./" "../" "greeter.ts" "#greeter.ts#" "greeter.ts~")
+
+ ("/home/axylos/" (22817 58619 190445 726000) ".xsession-errors" "dots/" ".bash_history" ".ICEauthority" ".bash_logout" "Public/" ".config/" ".profile" ".gnupg/" ".ssh/" ".v8flags.5.5.372.43.9f6331fe68231c6ba3aebb3bc3fcb21b.json" ".profile~" ".bashrc" "Videos/" ".node_repl_history" ".thunderbird/" "./" "Desktop/" "Downloads/" "foo/" ".audacity-data/" ".sudo_as_admin_successful" ".emacs" "../" "Templates/" "Pictures/" ".tmux.conf" ".purple/" ".swp" ".local/" "sicl/" ".xsession-errors.old" "examples.desktop" ".cache/" "projects/" ".emacs~" "Music/" ".dmrc" "Documents/" ".gconf/" ".npm/" ".gnome/" ".pki/" "node/" ".Xauthority" ".emacs.d/" ".mozilla/")
+
+ ("/home/" (22780 38423 775859 305000) "./" "../" "axylos/")
+
+ ("/home/axylos/sicl/" (22817 57701 238209 885000) "test/" ".vscode/" "tslint.json" "./" ".travis.yml" ".gitignore" "../" ".editorconfig" "package.json" "src/" "node_modules/" "#foo.rb#" "README.md" "tsconfig.json" "LICENSE")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
