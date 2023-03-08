@@ -1,0 +1,7 @@
+font:
+  normal:
+    family: Fira Mono
+    style: Regular
+  size: 15.0
+shell:
+  program: /usr/bin/zsh

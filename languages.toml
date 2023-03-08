@@ -1,0 +1,46 @@
+[[language]]
+name = "c"
+indent = { tab-width = 8, unit = " "}
+
+[[language]]
+name = "typescript"
+scope = "source.ts"
+file-types = ["ts"]
+shebangs = []
+roots = ["deno.json", "package.json", "tsconfig.json"]
+config = { enable = true, lint = true, unstable = true, provideFormatter = true }
+language-server = { command = "deno", args = ["lsp"], language-id = "typescript" }
+indent = { tab-width = 8, unit = " "}
+auto-format = true
+
+[[language]]
+name = "tsx"
+scope = "source.tsx"
+file-types = ["tsx"]
+roots = []
+config = { enable = true, lint = true, unstable = true, provideFormatter = true }
+language-server = { command = "deno", args = ["lsp"], language-id = "typescript" }
+indent = { tab-width = 8, unit = " "}
+auto-format = true
+
+[[grammar]]
+name = "tsx"
+source = { git = "https://github.com/tree-sitter/tree-sitter-typescript", rev = "6aac031ad88dd6317f02ac0bb27d099a553a7d8c", subpath = "tsx" }
+
+[[language]]
+name = "ruby"
+scope = "source.ruby"
+injection-regex = "ruby"
+file-types = ["rb", "rake", "rakefile", "irb", "gemfile", "gemspec", "Rakefile", "Gemfile", "rabl", "jbuilder", "jb"]
+shebangs = ["ruby"]
+roots = []
+comment-token = "#"
+language-server = { command = "bundle", args = ["exec", "solargraph", "stdio"] }
+indent = { tab-width = 8, unit = "  " }
+auto-format = true
+config = { solargraph = { diagnostics = true, formatting = true, provideFormatter = true, lint = true } }
+
+[[language]]
+name = "html"
+file-types = ["html", "html.erb"]
+language-server = { command = "vscode-html-languageserver", args = ["--stdio"] }
